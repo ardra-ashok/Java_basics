@@ -31,6 +31,21 @@ public class Operators {
         System.out.println("a>=b="+(a>=b));
         System.out.println("a<=b="+(a<=b));
 
+        /* Logical operators */
+        System.out.println("----------------------------");
+        System.out.println("**** Logical operators ****");
+
+        boolean x = true;
+        boolean y = false;
+
+        System.out.println(x && y);
+        System.out.println(x || y);
+        System.out.println(!x );
+        System.out.println(!y );
+
+        System.out.println(10>20);
+        System.out.println(20>40);
+
 
 
     }
