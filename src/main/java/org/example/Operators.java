@@ -8,7 +8,7 @@ public class Operators {
         * 1.Arithmetic Operators: +, -, *, /, % – for basic math operations.
         * 2.Relational Operators: ==, !=, >, <, >=, <= – for comparing values.
         * 3.Logical Operators: &&, ||, ! – for combining or negating boolean expressions.
-        * 4.Unary Operators: +, -, ++, --, ! – operate on a single operand.
+        * 4.Unary Operators: +, -, ++, --, !, ~ – operate on a single operand.
         * 5.Assignment Operators: =, +=, -=, *=, /=, %= – for assigning and updating values.
         * 6.Ternary Operator: ?: – a shortcut for if-else conditions.
         * 7.Type Comparison Operator: instanceof – checks object type at runtime.
@@ -46,7 +46,21 @@ public class Operators {
         System.out.println(10>20);
         System.out.println(20>40);
 
+        /* Unary Operators  */
+        System.out.println("------------------------------");
+        System.out.println("**** Unary Operators ****");
 
+        a++;
+        System.out.println(a);
+        System.out.println(++a);
+        a--;
+        System.out.println(a);
+        System.out.println(--a);
+        boolean flag = true;
+        System.out.println(!flag);
+
+        int c = 4;
+        System.out.println(~c);
 
     }
 }
