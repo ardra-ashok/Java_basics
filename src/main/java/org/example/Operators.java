@@ -65,7 +65,7 @@ public class Operators {
         System.out.println("-------------------");
         System.out.println("Assignment Operator");
 
-        int a = 10;
+        a = 10;
         System.out.println("Initial value of a: " + a);
 
         a += 5;
