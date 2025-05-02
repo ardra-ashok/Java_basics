@@ -32,5 +32,30 @@ public class loops {
         for (int num : numbers) {
             System.out.println("Array value: " + num);
         }
+
+        System.out.println("--- Break Example ---");
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                System.out.println("Break at i = " + i);
+                break;
+            }
+            System.out.println("i = " + i);
+        }
+
+        System.out.println("\n--- Continue Example ---");
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 == 0) {
+                continue;
+            }
+            System.out.println("Odd i = " + i);
+        }
+        int result = add(5, 10);
+        System.out.println("Result: " + result);
     }
+
+    static int add(int a, int b) {
+        System.out.println("\n--- Return Example ---");
+        return a + b;
+    }
+
 }
