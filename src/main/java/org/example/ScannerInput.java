@@ -30,6 +30,15 @@ public class ScannerInput {
         String first = scanner.next();
         String second = scanner.next();
         System.out.println("First: " + first + ", Second: " + second);
+
+        String input;
+
+        do {
+            System.out.print("Type 'exit' to quit: ");
+            input = scanner.nextLine();
+        } while (!input.equalsIgnoreCase("exit"));
+
+        System.out.println("Exited the loop.");
         scanner.close();
 
 
